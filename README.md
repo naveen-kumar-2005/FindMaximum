@@ -16,8 +16,13 @@ i)	# To find the maximum of marks using the list method sort.
 Program to mark the maximum of marks using the list method sort
 Developed by: R.NAVEEEN KUMAR
 RegisterNumber: 23013536
+Program to mark the maximum of marks using the list method sort
+Developed by: R.NAVEEN KUMAR
+RegisterNumber: 23013536
 def max_marks(marks):
-    return max(marks)
+    marks.sort()
+    large=marks[-1]
+    return large
 
 ```
 
@@ -27,8 +32,8 @@ Program to find the maximum marks using the list method max().
 Developed by: R.NAVEEN KUMAR
 RegisterNumber: 23013536
 def max_marks(marks):
-    return max(marks)
-
+    large=max(marks)
+    return large
 
 
 ```
@@ -36,20 +41,24 @@ def max_marks(marks):
 iii) # To find the maximum marks without using builtin functions.
 ```Python
 Program to the maximum marks without using builtin functions.
+Program to the maximum marks without using builtin functions.
 Developed by: R.NAVEEN KUMAR
+
 RegisterNumber: 23013536
 def max_marks(list1):
-    return max(list1)
-
-
+    max=list1[0]
+    for i in list1:
+        if i>max:
+            max=i
+    return max
 ```
-## Sample Input and Output
-![output](./img/max_marks1.jpg) 
 
 ## Output:
-![Alt text](image.png)
-![Alt text](image-1.png)
-![Alt text](image-2.png)
+![image](https://github.com/naveen-kumar-2005/FindMaximum/assets/145742865/0879d937-fd0c-49e2-a3d1-d515c5e5daca)
+![image](https://github.com/naveen-kumar-2005/FindMaximum/assets/145742865/ce900992-45fc-43ad-b572-57a6ce24655d)
+![image](https://github.com/naveen-kumar-2005/FindMaximum/assets/145742865/db5888a1-feff-4e82-8ebf-05ab32c93892)
+
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
